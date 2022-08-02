@@ -1,7 +1,3 @@
-#currentDay{
-  font-weight: bold;
-}
-
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
@@ -14,7 +10,6 @@ textarea{
   resize: none;
   color: #000000;
   border-left: 1px solid black;
-  padding: 10px;
 }
 
 .jumbotron {
@@ -29,7 +24,7 @@ textarea{
   white-space: pre-wrap;
 }
 
-.block{
+.time-hour{
   text-align: center;
   border-radius: 15px;
 }
@@ -40,7 +35,7 @@ textarea{
   border-top: 1px solid white;;
 }
 
-.hr {
+.hour {
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
@@ -69,7 +64,7 @@ textarea{
   color: white;
 }
 
-.saveButton i:hover {
+.saveButton :hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
